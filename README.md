@@ -1,5 +1,5 @@
-# Responsive Chat Website
-### Responsive Chat Website
+# Responsive Chat Website Full Source Code
+### Responsive Chat Website Full Source Code
 
 - Responsive Chat Website Design Using HTML CSS And JavaScript.
 - Developed first with the Mobile First methodology, then for desktop.
