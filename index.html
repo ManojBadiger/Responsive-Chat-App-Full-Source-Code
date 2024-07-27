@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--=============== REMIXICONS ===============-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css" crossorigin="">
+
+    <title>Chat website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Main container for the chat website -->
+    <div class="main-container">
+        <!-- Navigation bar section -->
+        <div class="navbar">
+            <div class="nav-left">
+                <button class="menu-btn" id="toggleBtn">
+                    <i class="ri-menu-2-fill"></i>
+                </button>
+                <i class="ri-chat-smile-fill logo-icon"></i> Chat
+            </div>
+            <div class="nav-right">
+                <form class="search-bar">
+                    <i class="ri-search-line search-icon"></i>
+                    <input type="text" name="" placeholder="Search here...">
+                </form>
+                <i class="ri-settings-3-fill" class="setting"></i>
+                <a href="#" class="profile-link">
+                    <img src="images/photo-4.jpg" alt="" />
+                </a>
+            </div>
+        </div>
+        <!-- Bottom section containing side menu and main chat area -->
+        <div class="bottom-sec">
+            <div class="side-menu" id="SideMenu">
+                <form class="search-bar">
+                    <i class="ri-search-line search-icon"></i>
+                    <input type="text" name="" placeholder="Search here...">
+                </form>
+                <ul>
+                    <li>
+                        <i class="ri-home-gear-fill"></i>
+                        <a href="#" class="active-link">Home</a>
+                    </li>
+                    <li>
+                        <i class="ri-group-fill"></i>
+                        <a href="#">Groups</a>
+                    </li>
+                    <li>
+                        <i class="ri-account-pin-box-line"></i>
+                        <a href="#">Profile</a>
+                    </li>
+                    <li>
+                        <i class="ri-notification-fill"></i>
+                        <a href="#">Notifications</a>
+                    </li>
+                    <li>
+                        <i class="ri-logout-circle-line"></i>
+                        <a href="#">Logout</a>
+                    </li>
+                </ul>
+                <div class="contacts">
+                    <div class="chat">
+                        <img src="images/photo-3.jpg" alt="" />
+                        <p>Liam Brown</p>
+                    </div>
+                    <div class="chat">
+                        <img src="images/photo-6.jpg" alt="" />
+                        <p>Emactive-linkJohnson</p>
+                    </div>
+                    <div class="chat">
+                        <img src="images/photo-5.jpg" alt="" />
+                        <p>Sophia Martinez</p>
+                    </div>
+                    <div class="chat">
+                        <img src="images/photo-2.jpg" alt="" />
+                        <p>Noah Wilson</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contactstion">
+                <div class="chat-header">
+                    <div class="profile-link-header">
+                        <span class="profile-link-main">
+                            <img src="images/photo-1.jpg" alt="" />
+                        </span>
+                        <h2>Code Genius</h2>
+                    </div>
+                    <i class="ri-more-2-fill"></i>
+                </div>
+
+                <div class="all-chat">
+                    <div class="message-item">
+                        <img src="images/photo-1.jpg" alt="" />
+                        <div class="message-content">
+                            <h4>Code Genius <span>* 5m</span></h4>
+                            <p>Hi, How are you?.</p>
+                        </div>
+                    </div>
+                    <div class="message-item my-message">
+                        <img src="images/photo-4.jpg" alt="" />
+                        <div class="message-content">
+                            <h4>you<span>* 5m</span></h4>
+                            <p>I'm fine. How are you?</p>
+                        </div>
+                    </div>
+                    <div class="message-item">
+                        <img src="images/photo-1.jpg" alt="" />
+                        <div class="message-content">
+                            <h4>Ava <span>* 5m</span></h4>
+                            <p>I'm also Fine.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="input-area">
+                    <i class="ri-add-circle-line chat-icon"></i>
+
+                    <form class="message-input-form">
+                        <input type="text" name="text" placeholder="Enter Message...">
+                        <i class="ri-emoji-sticker-fill chat-icon"></i>
+                        <i class="ri-attachment-2 chat-icon"></i>
+                    </form>
+
+                    <i class="ri-send-plane-2-fill chat-icon"></i>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
